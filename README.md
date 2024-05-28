@@ -4,6 +4,13 @@ Project Overview
 The Mobile Price Classification project aims to predict the price range of mobile phones based on various features such as Battery Power(mAh),Clock Speed,Front Camera Megapixels,5G Support (0 for No, 1 for Yes): ,Internal Memory (GB),Number of Cores(1 to 8),Primary Camera Megapixels(1 to 20).
 This can help manufacturers and retailers to categorize new products appropriately and understand market trends better.
 
+Prerequisites
+Python 3.x
+Flask
+Pandas
+NumPy
+Scikit-learn (or the library used to train the model)
+
 Project Structure :
 mobile_price_classification/
 ├── static/
@@ -34,6 +41,11 @@ model.pkl: Serialized model file (pickle) that contains the trained machine lear
 train.csv: CSV file containing the training data used for building the model.
 README.md: A markdown file that provides an overview of the project, how to set it up, and how to use it.
 requirements.txt: A file that lists all the dependencies and libraries needed to run the project.
+
+Features
+Home Page: Enter mobile phone features to get a price range prediction.
+About Page: Learn more about the project.
+Contact Page: Contact information for the project maintainers.
 
 Dataset
 The dataset used in this project is stored in train.csv, containing various features and price range labels.
